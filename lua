@@ -380,7 +380,7 @@ mkStroke(badgeBg, Color3.fromRGB(0, 0, 0), 1)
 local badgeLbl = Instance.new("TextLabel", badgeBg)
 badgeLbl.Size = UDim2.new(1, 0, 1, 0)
 badgeLbl.BackgroundTransparency = 1
-badgeLbl.Text = "SCARE MINI HUB "
+badgeLbl.Text = "BuZzz Hub x Scary "
 badgeLbl.TextColor3 = Color3.fromRGB(170, 0, 0)
 badgeLbl.Font = Enum.Font.GothamBold
 badgeLbl.TextSize = 9
@@ -1990,7 +1990,7 @@ makeButtonRow("Insta Reset Panel", "OPEN", function()
 	ptitle.Size = UDim2.new(1, -50, 0, 36)
 	ptitle.Position = UDim2.new(0, 14, 0, 0)
 	ptitle.BackgroundTransparency = 1
-	ptitle.Text = "SCARE INSTA RESET"
+	ptitle.Text = "BuZzz INSTA RESET"
 	ptitle.TextColor3 = Color3.fromRGB(230,230,230)
 	ptitle.Font = Enum.Font.GothamBlack
 	ptitle.TextSize = 14
@@ -2446,7 +2446,7 @@ reopenBtn.Size = UDim2.new(0, 80, 0, 32)
 reopenBtn.Position = UDim2.new(0, 10, 0, 10)
 reopenBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 reopenBtn.BorderSizePixel = 0
-reopenBtn.Text = "SCARE "
+reopenBtn.Text = "BuZzz "
 reopenBtn.TextColor3 = Color3.fromRGB(170, 0, 0)
 reopenBtn.Font = Enum.Font.GothamBlack
 reopenBtn.TextSize = 13
@@ -2723,7 +2723,7 @@ local function setupChar(char)
 		lbl2.Size=UDim2.new(1,0,0,24)
 		lbl2.Position=UDim2.new(0,0,0,52)
 		lbl2.BackgroundTransparency=1
-		lbl2.Text="SCARE "
+		lbl2.Text="BuZzz "
 		lbl2.TextColor3=Color3.fromRGB(170, 0, 0)
 		lbl2.Font=Enum.Font.GothamBold
 		lbl2.TextScaled=true
@@ -2985,7 +2985,7 @@ task.spawn(function()
 	bg.BorderSizePixel = 0
 	bg.ZIndex = 1
 
-	-- J5 label (top)
+	-- Scary label (top)
 	local lbl = Instance.new("TextLabel", bg)
 	lbl.Size = UDim2.new(0, 320, 0, 70)
 	lbl.AnchorPoint = Vector2.new(0.5, 1)
@@ -3017,7 +3017,7 @@ task.spawn(function()
 
 	-- Typeout "SCARE" on top label
 	for i = 1, 5 do
-		lbl.Text = string.sub("SCARE", 1, i)
+		lbl.Text = string.sub("BuZzz", 1, i)
 		TweenService:Create(lbl, TweenInfo.new(0.06, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {TextSize = 80}):Play()
 		task.wait(0.12)
 		TweenService:Create(lbl, TweenInfo.new(0.1, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {TextSize = 72}):Play()
